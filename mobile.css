@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98vw;
+    background-color: hsl(0, 0%, 100%);
+}
+
+main {
+    width: 320px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 150px auto;
+    padding-bottom: 10px;
+}
+
+.imagem {
+    width: 320px;
+    height: 240px;
+    background-image: url('images/image-product-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+
+.texto .perfume {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.texto h1 {
+    width: 230px;
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.texto .paragrafo {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.preco {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Fraunces", serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.preco .now {
+    color: hsl(158, 36%, 37%);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.preco .before {
+    color: hsl(228, 12%, 48%);
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.button {
+    width: 90%;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: hsl(158, 42%, 18%);
+    transition: 0.2s;
+}
+
+.button img{
+    margin-right: 10px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+
+    
